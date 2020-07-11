@@ -7,15 +7,15 @@ This repository demonstrates how to create a monorepo using [Yarn Workspaces](ht
 ```sh
 .
 ├── apps
-│   ├── todo
+│   ├── todo-react
 │   |   ├── package.json
 │   ├── todo-vue
+│   |   ├── package.json
+│   ├── todo-node
 │   |   ├── package.json
 │   ├── tsconfig.{platform}.json
 ├── packages
 │   ├── log
-│   |   ├── package.json
-│   ├── todo
 │   |   ├── package.json
 ├── ... various configuration files (such as tsconfig.json)
 ├── package.json
