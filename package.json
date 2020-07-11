@@ -6,7 +6,7 @@
   "private": "true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lerna run start",
+    "start": "lerna run start --stream",
     "start-node": "yarn --cwd apps/sample-node start",
     "start-react": "yarn --cwd apps/sample-react start",
     "start-vue": "yarn --cwd apps/sample-vue start",
