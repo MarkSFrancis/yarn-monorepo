@@ -4,7 +4,7 @@ import './App.css';
 import { Log } from  '@yarn-monorepo/log';
 
 function App() {
-  Log('Test');
+  Log('App started, with library loaded');
   return (
     <div className="App">
       <header className="App-header">

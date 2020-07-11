@@ -1,1 +1,1 @@
-export const Log = (...args) => console.log(...args);
+export const Log = (...args: unknown[]): void => console.log(...args);
