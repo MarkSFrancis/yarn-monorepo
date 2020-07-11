@@ -1,10 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Log } from  '@yarn-monorepo/log';
+import { Log } from "@yarn-monorepo/log";
 
 function App() {
-  Log('App started, with library loaded');
+  Log('Hello world!');
   return (
     <div className="App">
       <header className="App-header">

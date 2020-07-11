@@ -1,6 +1,6 @@
 # Yarn Monorepo
 
-This repository demonstrates how to create a monorepo using [Yarn Workspaces](https://classic.yarnpkg.com/en/docs/workspaces/), with multi-platform typescript (browser and NodeJS), sharing code between them where appropriate. 
+This repository demonstrates how to create a monorepo using [Yarn Workspaces](https://classic.yarnpkg.com/en/docs/workspaces/), with multi-platform typescript (browser and NodeJS), sharing code between them where appropriate.
 
 ## Project Layout
 
@@ -19,4 +19,11 @@ This repository demonstrates how to create a monorepo using [Yarn Workspaces](ht
 │   |   ├── package.json
 ├── ... various configuration files (such as tsconfig.json)
 ├── package.json
+```
+
+## Getting Started (for development)
+
+```sh
+git clone https://github.com/MarkSFrancis/yarn-monorepo
+yarn start
 ```
