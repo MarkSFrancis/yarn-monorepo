@@ -15,9 +15,13 @@ This project also makes use of [lerna](https://lerna.js.org/) to help manage the
 │   |   ├── package.json
 │   ├── sample-node
 │   |   ├── package.json
+│   ├── storybook
+│   |   ├── package.json
 │   ├── tsconfig.{platform}.json
 ├── packages
 │   ├── log
+│   |   ├── package.json
+│   ├── ui
 │   |   ├── package.json
 ├── ... various configuration files (such as tsconfig.json)
 ├── package.json
