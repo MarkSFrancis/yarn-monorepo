@@ -1,0 +1,17 @@
+import { action } from '@storybook/addon-actions';
+import { Meta, Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import { Button } from "@yarn-monorepo/ui/components";
+
+<Meta title="Hello World!" />
+
+# Hello World
+
+<Preview>
+  <Story name="Default button">
+    <Button onClick={action('clicked')} text="Test text" />
+  </Story>
+</Preview>
+
+## Props
+
+<Props of={Button} />

@@ -1,9 +1,6 @@
 {
   "extends": "../../tsconfig.react.json",
-  "include": [
-    "src"
-  ],
   "compilerOptions": {
-    "outDir": "./dist/"
+    "isolatedModules": false
   }
 }

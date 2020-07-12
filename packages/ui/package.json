@@ -1,0 +1,14 @@
+{
+  "name": "@yarn-monorepo/ui",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.42",
+    "@types/react-dom": "^16.9.8",
+    "eslint-plugin-react": "^7.20.3"
+  }
+}
