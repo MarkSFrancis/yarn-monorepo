@@ -9,6 +9,6 @@
       "esnext"
     ],
     "noEmit": false,
-    "jsx": "react",
+    "jsx": "react-jsx",
   }
 }

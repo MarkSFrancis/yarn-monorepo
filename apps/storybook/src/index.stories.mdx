@@ -1,4 +1,4 @@
-import { action } from '@storybook/addon-actions';
+import { action } from "@storybook/addon-actions";
 import { Meta, Story, Preview, Props } from "@storybook/addon-docs/blocks";
 import { Button } from "@yarn-monorepo/ui/components";
 
@@ -6,9 +6,27 @@ import { Button } from "@yarn-monorepo/ui/components";
 
 # Hello World
 
+This is a default button
+
 <Preview>
   <Story name="Default button">
-    <Button onClick={action('clicked')} text="Test text" />
+    <div style={{ marginBottom: "1rem" }}>
+      <Button onClick={action("default clicked")} text="Default Button" />
+    </div>
+    <div style={{ marginBottom: "1rem" }}>
+      <Button
+        variant="primary"
+        onClick={action("primary clicked")}
+        text="Submit"
+      />
+    </div>
+    <div>
+      <Button
+        variant="danger"
+        onClick={action("danger clicked")}
+        text="Danger!"
+      />
+    </div>
   </Story>
 </Preview>
 

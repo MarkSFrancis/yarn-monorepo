@@ -6,18 +6,16 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
 import HelloWorld from "./components/HelloWorld.vue";
 import { Log } from "@yarn-monorepo/log";
 
 Log("App started, with library loaded");
 
-@Component({
+export default {
   components: {
-    HelloWorld
-  }
-})
-export default class App extends Vue {}
+    HelloWorld,
+  },
+};
 </script>
 
 <style>
