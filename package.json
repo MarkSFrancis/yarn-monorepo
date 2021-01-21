@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "private": "true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lerna run start --stream",
-    "start-node": "yarn --cwd apps/sample-node start",
-    "start-react": "yarn --cwd apps/sample-react start",
-    "start-vue": "yarn --cwd apps/sample-vue start",
+    "start-node": "yarn workspace sample-node start",
+    "start-react": "yarn workspace sample-react start",
+    "start-vue": "yarn workspace sample-vue start",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.vue"
   },
   "workspaces": [
@@ -27,7 +26,7 @@
     "@typescript-eslint/parser": "^3.6.0",
     "eslint": "^6.6.0",
     "eslint-config-prettier": "^6.11.0",
-    "npm-run-all": "^4.1.5",
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "npm-run-all": "^4.1.5"
   }
 }
